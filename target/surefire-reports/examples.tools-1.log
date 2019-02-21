@@ -1,0 +1,15 @@
+02:25:37.936 karate.env system property was: null 
+02:25:38.659 request:
+1 > GET http://localhost:8090/tools
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8090
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+02:25:38.757 response time in milliseconds: 50,72
+1 < 200
+1 < Content-Length: 21
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Thu, 21 Feb 2019 23:25:38 GMT
+testrail,Qtest,Qmetry
+

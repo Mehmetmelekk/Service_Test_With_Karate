@@ -1,0 +1,165 @@
+00:26:07.940 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:26:08.588 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8090/tools
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8090
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+00:26:08.793 [main] DEBUG com.intuit.karate - response time in milliseconds: 200,42
+1 < 200
+1 < Content-Length: 21
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Thu, 21 Feb 2019 21:26:08 GMT
+testrail,Qtest,Qmetry
+
+00:26:08.854 [main] DEBUG com.intuit.karate - request:
+2 > GET http://localhost:8090/users
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: localhost:8090
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+00:26:08.985 [main] DEBUG com.intuit.karate - response time in milliseconds: 128,62
+2 < 404
+2 < Content-Type: application/json;charset=UTF-8
+2 < Date: Thu, 21 Feb 2019 21:26:08 GMT
+2 < Transfer-Encoding: chunked
+{"timestamp":"2019-02-21T21:26:08.894+0000","status":404,"error":"Not Found","message":"No message available","path":"/users"}
+
+00:26:09.110 [main] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 129, url: http://localhost:8090/users, response: {"timestamp":"2019-02-21T21:26:08.894+0000","status":404,"error":"Not Found","message":"No message available","path":"/users"}
+00:26:32.921 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:26:33.490 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8090/tools
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8090
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+00:26:33.525 [main] DEBUG com.intuit.karate - response time in milliseconds: 33,32
+1 < 200
+1 < Content-Length: 21
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Thu, 21 Feb 2019 21:26:33 GMT
+testrail,Qtest,Qmetry
+
+00:34:38.056 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:34:38.668 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8090/tools
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8090
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+00:34:38.700 [main] DEBUG com.intuit.karate - response time in milliseconds: 29,59
+1 < 200
+1 < Content-Length: 21
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Thu, 21 Feb 2019 21:34:38 GMT
+testrail,Qtest,Qmetry
+
+00:48:19.953 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:48:20.601 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8090/tools
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8090
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+00:48:20.645 [main] DEBUG com.intuit.karate - response time in milliseconds: 41,63
+1 < 200
+1 < Content-Length: 21
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Thu, 21 Feb 2019 21:48:20 GMT
+testrail,Qtest,Qmetry
+
+00:48:30.172 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:48:30.933 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8090/tools
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8090
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+00:48:30.970 [main] DEBUG com.intuit.karate - response time in milliseconds: 34,30
+1 < 200
+1 < Content-Length: 21
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Thu, 21 Feb 2019 21:48:30 GMT
+testrail,Qtest,Qmetry
+
+01:46:16.357 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:46:17.008 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8090/tools
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8090
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+01:46:17.107 [main] DEBUG com.intuit.karate - response time in milliseconds: 48,17
+1 < 200
+1 < Content-Length: 21
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Thu, 21 Feb 2019 22:46:17 GMT
+testrail,Qtest,Qmetry
+
+01:51:15.536 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:51:16.183 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8090/tools
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8090
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+01:51:16.277 [main] DEBUG com.intuit.karate - response time in milliseconds: 48,69
+1 < 200
+1 < Content-Length: 21
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Thu, 21 Feb 2019 22:51:16 GMT
+testrail,Qtest,Qmetry
+
+01:56:56.431 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:56:57.032 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8090/tools
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8090
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+01:56:57.073 [main] DEBUG com.intuit.karate - response time in milliseconds: 39,04
+1 < 200
+1 < Content-Length: 21
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Thu, 21 Feb 2019 22:56:57 GMT
+testrail,Qtest,Qmetry
+
+02:22:58.668 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:22:59.357 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8090/tools
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8090
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+02:22:59.457 [main] DEBUG com.intuit.karate - response time in milliseconds: 50,90
+1 < 200
+1 < Content-Length: 21
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Thu, 21 Feb 2019 23:22:59 GMT
+testrail,Qtest,Qmetry
+
+02:25:37.930 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:25:38.659 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8090/tools
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8090
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+
+02:25:38.756 [main] DEBUG com.intuit.karate - response time in milliseconds: 50,72
+1 < 200
+1 < Content-Length: 21
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Thu, 21 Feb 2019 23:25:38 GMT
+testrail,Qtest,Qmetry
+
