@@ -41,3 +41,10 @@ Feature: sample karate test script
     When method get
     Then status 200
 
+   Scenario: get testrail and then check with other tools
+
+    Given path 'tools'
+    When method get
+    Then status 400
+
+
