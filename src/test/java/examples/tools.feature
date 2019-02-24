@@ -11,10 +11,33 @@ Feature: sample karate test script
   Background:
     * url 'http://localhost:8090'
 
-  Scenario: get all users and then get the first user by id
+  Scenario: get all tools and then check status code is ture
 
     Given path 'tools'
     When method get
     Then status 200
 
+  Scenario: get qtest and validate response is contain qtest
+
+    Given path 'tools'
+    When method get
+    Then status 200
+
+  Scenario: get qtest and validate response is contain qtest response
+
+    Given path 'tools'
+    When method get
+    Then status 200
+    
+  Scenario: get testrail and validate response is contain testrail
+
+    Given path 'tools'
+    When method get
+    Then status 200
+    
+   Scenario: get testrail and then check status code is ture
+
+    Given path 'tools'
+    When method get
+    Then status 200
 
