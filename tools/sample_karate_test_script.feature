@@ -16,3 +16,5 @@ Feature: sample karate test script
     Given path 'tools'
     When method get
     Then status 200
+    Then status 200
+
