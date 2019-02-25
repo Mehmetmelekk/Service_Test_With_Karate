@@ -45,6 +45,6 @@ Feature: sample karate test script
 
     Given path 'tools'
     When method get
-    Then status 400
+    Then status 200
 
 
